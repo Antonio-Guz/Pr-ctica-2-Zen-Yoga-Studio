@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background-color: rgb(246, 246, 244);
+}
+header{
+    margin: 0;
+    width: 100%;
+    min-height: 80px;
+    display:grid;
+    align-items: center;
+    background-color: rgb(158, 214, 69);
+    text-align: center;
+}
+nav li{
+    display: inline;
+}
+h1{
+    margin: auto;
+    color:rgb(244, 254, 255);
+    font-size: clamp(2rem, 10vh, 5rem);
+    display: flex;
+}
+
+h2{
+    text-align: center;
+    margin: 0%;
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+.contenedor{
+    display: flex;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+.cards{
+    display: flex;
+}
+.card{
+    margin: 20px;
+    width: 400px;
+    border-radius: 20px;
+    background-color:rgb(208, 232, 180);
+    box-shadow: 10px 10px 10px #000;
+    font-family: "Playwrite HU", cursive;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+.card img{
+    width: 700px;
+    border-radius: 20px 20px 0 0;
+}
+.card h1{
+    margin: 20px;
+    color: rgb(91, 100, 80);
+}
+.card h2{
+    margin: 20px;
+    color:rgb(91, 100, 80);
+}
+.card p{
+    margin: 20px;
+    color: rgb(91, 100, 80);
+    text-align: center;
+}
+.Maintext{
+    width: 80vw;
+}
+.imgtext{
+    border-radius: 0 20px 20px 0;
+}
+.sidebar {
+    background: rgb(248, 255, 244);
+    padding: 15px;
+    width: 250px;
+    border: 1px solid rgb(129, 193, 108);
+    color: #333;
+}
+.sidebar h3 {
+    color: rgb(91, 100, 80);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin: 10px 0;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.sidecontent img{
+    width:200px;
+}
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-section {
+    max-width: 300px;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+.footer-section a {
+    color:rgb(102, 152, 206);
+    text-decoration: none;
+}
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 0.9em;
+}

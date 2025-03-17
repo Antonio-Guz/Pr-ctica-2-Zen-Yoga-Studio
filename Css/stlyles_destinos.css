@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(74, 108, 156);
+    margin: 0%;
+}
+nav li{
+    display: inline;
+}
+h1{
+    margin: auto;
+    color:rgb(244, 254, 255);
+    font-size: clamp(2rem, 10vh, 5rem);
+    display: flex;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+.cards{
+    display: flex;
+}
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    background-color:rgb(121, 195, 238);
+    box-shadow: 10px 10px 10px #000;
+    font-family: "Playwrite HU", cursive;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+.green{
+    background-color: rgb(104, 172, 104);
+}
+.orange{
+    background-color: rgb(231, 156, 106);
+}
+.red{
+    background-color: rgb(230, 86, 86);
+}
+
+.card img{
+    width: 300px;
+    border-radius: 20px 20px 0 0;
+}
+.card h1{
+    margin: 20px;
+    color: bisque;
+}
+.card h2{
+    margin: 20px;
+    color:bisque;
+}
+.card p{
+    margin: 20px;
+    color: cornsilk;
+}
+.Maintext{
+    width: 80vw;
+}
+.imgtext{
+    border-radius: 0 20px 20px 0;
+}
